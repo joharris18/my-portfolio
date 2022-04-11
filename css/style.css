@@ -13,9 +13,9 @@
     --fw-reg: 300;
     --fw-bold: 900;
     
-    --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-light: #212F45;
+    --clr-dark: #fff;
+    --clr-accent: #F77F00;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -38,9 +38,9 @@
 /* General styles */
 
 /* endable this to add smooth scrolling */
-/* html {
+html {
     scroll-behavior: smooth;
-} */
+}
 
 
 body {
@@ -142,7 +142,7 @@ header {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 150px;
 }
 
 .nav {
@@ -164,11 +164,16 @@ header {
     display: flex;
     height: 100%;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     align-items: center;
     margin: 0;
     padding: 0;
 }
+
+/* .nav__item {
+    width: auto;;
+    margin: 0 0 3em 7em;
+} */
 
 .nav__link {
     color: inherit;
@@ -249,6 +254,7 @@ header {
 
 .intro {
     position: relative;
+    /* height: 100vh; */
 }
 
 .intro__img {
@@ -264,6 +270,8 @@ header {
         display: grid;
         width: min-content;
         margin: 0 auto;
+        padding-top: 15em;
+        padding-bottom: 19em;
         grid-column-gap: 1em;
         grid-template-areas: 
             "img title"
@@ -319,6 +327,7 @@ header {
 
 .services {
     margin-bottom: 4em;
+    color: #fff;
 }
 
 .service {
@@ -476,3 +485,6 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* EFFECTS */
+
