@@ -421,6 +421,7 @@ header {
         position: relative;
         z-index: 2;
     }
+    
 }
 
 /* My Work */
@@ -520,4 +521,28 @@ header {
 }
 
 /* EFFECTS */
+
+.service img {
+    margin: auto;
+}
+
+@media (max-width: 599px) {
+    .react-title {
+        margin-bottom: 22px;
+    }
+
+    .intro__img {
+        width: 20em;
+        margin: auto;
+    }
+
+    .intro {
+        text-align: center;
+    }
+
+    .about-me__img {
+        width: 12em;
+        margin: auto;
+    }
+}
 
